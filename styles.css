@@ -12,15 +12,14 @@ body {
   font-size: 14px;
   line-height: 22px;
   color: #ffffff;
-  background-color: lightslategray;
+  background-color: #4c5240;
 }
 
 /*header start here*/
 
-
 .header {
   overflow: hidden;
-  background-color: lightseagreen;
+  background-color: #ccc7a5;
   padding: 20px 10px;
 }
 .header a {
@@ -65,7 +64,7 @@ body {
 
 section {
   padding: 5em 2em;
-  }
+}
 img {
   display: block;
   width: 75%;
@@ -98,8 +97,7 @@ h3 {
   margin-bottom: 0.25rem;
 }
 .section__title--intro {
-font-weight: 2.25em;
-  
+  font-weight: 2.25em;
 }
 .section__title--intro strong {
   display: block;
@@ -109,10 +107,10 @@ font-weight: 2.25em;
   font-size: 1.25rem;
 }
 .section__subtitle--intro {
-background: lightgreen;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-margin-bottom: 1em;
-padding: 10px;
+  background: #6a42d4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1em;
+  padding: 10px;
 }
 .intro {
   position: relative;
@@ -127,8 +125,8 @@ padding: 10px;
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas:
-    "img title"
-    "img subtitle";
+      "img title"
+      "img subtitle";
     grid-template-columns: min-content max-content;
   }
   .intro__img {
@@ -167,12 +165,10 @@ h2 {
 
 /*column start here*/
 
-
 .column {
   float: left;
   width: 33.33%;
   padding: 15px;
-
 }
 .row {
   content: " ";
@@ -181,15 +177,15 @@ h2 {
   box-sizing: border-box;
 }
 .Education {
-  background-color: royalblue;
+  background-color: #7d9c17;
   padding: 15px;
 }
 .Work {
-  background-color: royalblue;
+  background-color: #7d9c17;
   padding: 15px;
 }
 .Volunteer {
-  background-color: royalblue;
+  background-color: #7d9c17;
   padding: 15px;
 }
 h3 {
@@ -213,10 +209,9 @@ h3 {
   position: relative;
   left: 35%;
   padding: 20px;
-  background: #333;
+  background: #6d7838;
   box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
-  
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 h4 {
   background-color: sienna;
@@ -230,7 +225,6 @@ h4 {
   box-sizing: border-box;
   width: 100%;
   margin: 20px 0;
-
 }
 .skillBox p {
   color: #fff;
@@ -243,7 +237,6 @@ h4 {
 .skillBox p:nth-child(2) {
   float: right;
   position: relative;
-  
 }
 .skill {
   background: #262626;
@@ -253,16 +246,16 @@ h4 {
   border-radius: 2px;
 }
 .skill_level {
-  background: #0fffb7;
+  background: #aec26e;
   width: 100%;
   height: 10px;
 }
 .my-hobby {
-  background-color: skyblue;
+  background-color: #aec26e;
   text-align: center;
 }
 .language {
-  background-color: darkkhaki;
+  background-color: #34631b;
   text-align: center;
 }
 /*column end here*/
@@ -383,4 +376,3 @@ a {
 .footer-bottom p a:hover {
   color: #272727;
 }
-
